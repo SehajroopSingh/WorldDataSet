@@ -10,7 +10,8 @@ WDIDCombinedgroupcountryandyear Dataframe Info example:
 
 
 WDIDCombinedFinalStats Dataframe Info example:
-<img width="835" alt="CleanShot 2022-12-14 at 16 17 45@2x" src="https://user-images.githubusercontent.com/116106229/207650017-ff30fba8-17a5-4721-b93d-c448c54d4be5.png">
+<img width="842" alt="CleanShot 2022-12-14 at 16 19 07@2x" src="https://user-images.githubusercontent.com/116106229/207650305-36deddb4-5a74-4548-be75-eb34d19c339f.png">
+
 
 
 
