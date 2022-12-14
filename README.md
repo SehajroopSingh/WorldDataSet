@@ -16,6 +16,13 @@
 
 ## Different Files Summaries:
 
+#### GDIM.csv
+
+CSV screenshot:
+
+<img width="811" alt="CleanShot 2022-12-14 at 17 40 54@2x" src="https://user-images.githubusercontent.com/116106229/207668114-ce40bfa7-ae9a-4495-9726-8eea26a2eb8d.png">
+
+
 #### DatedData.py
 
 Includes all of the code used to create the main dataframe from the original datasets downloaded from the different sources.
