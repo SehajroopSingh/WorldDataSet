@@ -177,7 +177,49 @@ The regional code dataset was used to provide a variable with more specific sub-
 https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv
 
 ### Cause of Deaths around the World (Historical Data):
-This Dataset is created from Our World in Data. This Dataset falls under open access under the Creative Commons BY license. You can check the FAQ for more information about it. Special thanks to Max Roser, Hannah Ritchie, and Fiona Spooner (2021) - "Burden of disease". Published online at OurWorldInData.org. Retrieved from: https://ourworldindata.org/burden-of-disease [Online Resource].
+This Dataset is created from Our World in Data. This Dataset falls under open access under the Creative Commons BY license.  https://ourworldindata.org/burden-of-disease [Online Resource].
+
+
+01. Country/Territory - Name of the Country/Territory
+02. Code - Country/Territory Code
+03. Year - Year of the Incident
+04. Meningitis - No. of People died from Meningitis
+05. Alzheimer's Disease and Other Dementias - No. of People died from Alzheimer's Disease and Other Dementias
+06. Parkinson's Disease - No. of People died from Parkinson's Disease
+07. Nutritional Deficiencies - No. of People died from Nutritional Deficiencies
+08. Malaria - No. of People died from Malaria
+09. Drowning - No. of People died from Drowning
+10. Interpersonal Violence - No. of People died from Interpersonal Violence
+11. Maternal Disorders - No. of People died from Maternal Disorders
+12. Drug Use Disorders - No. of People died from Drug Use Disorders
+13. Tuberculosis - No. of People died from Tuberculosis
+14. Cardiovascular Diseases - No. of People died from Cardiovascular Diseases
+15. Lower Respiratory Infections - No. of People died from Lower Respiratory Infections
+16. Neonatal Disorders - No. of People died from Neonatal Disorders
+17. Alcohol Use Disorders - No. of People died from Alcohol Use Disorders
+18. Self-harm - No. of People died from Self-harm
+19. Exposure to Forces of Nature - No. of People died from Exposure to Forces of Nature
+20. Diarrheal Diseases - No. of People died from Diarrheal Diseases
+21. Environmental Heat and Cold Exposure - No. of People died from Environmental Heat and Cold Exposure
+22. Neoplasms - No. of People died from Neoplasms
+23. Conflict and Terrorism - No. of People died from Conflict and Terrorism
+24. Diabetes Mellitus - No. of People died from Diabetes Mellitus
+25. Chronic Kidney Disease - No. of People died from Chronic Kidney Disease
+26. Poisonings - No. of People died from Poisoning
+27. Protein-Energy Malnutrition - No. of People died from Protein-Energy Malnutrition
+28. Chronic Respiratory Diseases - No. of People died from Chronic Respiratory Diseases
+29. Cirrhosis and Other Chronic Liver Diseases - No. of People died from Cirrhosis and Other Chronic Liver Diseases
+30. Digestive Diseases - No. of People died from Digestive Diseases
+31. Fire, Heat, and Hot Substances - No. of People died from Fire or Heat or any Hot Substances
+32. Acute Hepatitis - No. of People died from Acute Hepatitis
+
+
+Dataset structure
+<img width="1015" alt="CleanShot 2022-12-14 at 19 36 18@2x" src="https://user-images.githubusercontent.com/116106229/207697722-25f633e3-a02c-4e9b-9d55-2290ba3bba70.png">
+
+
+
+
 
 https://www.migrationdataportal.org/themes/environmental_migration_and_statistics#data-strengths-amp-limitations
 
