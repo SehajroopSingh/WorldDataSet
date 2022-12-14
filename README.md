@@ -154,7 +154,7 @@ WDID data set:
 Visulaization reated to ascertain the emissions levels of each of the top 10 countries, in terms of GDP.
 
 
-![__results___7_0](https://user-images.githubusercontent.com/116106229/207694326-d017eec9-898f-45d7-a0fb-60328c3245d8.png)
+<img width="656" alt="CleanShot 2022-12-14 at 19 27 47@2x" src="https://user-images.githubusercontent.com/116106229/207695741-86a366b7-6db6-4403-bc06-771cd957ca71.png">
 72.560976% of Countries have increased CO2 emissions (metric ton per capita) (1970-2016)	
 58.536585% of Countries that have increased CO2 emissions (metric ton per capita) (2006-2016)
 
