@@ -6,7 +6,8 @@ A dataset to do all kinds of analysis of world problems
 
 
 WDIDCombinedgroupcountryandyear Dataframe Info example:
-<img width="835" alt="CleanShot 2022-12-14 at 16 14 36@2x" src="https://user-images.githubusercontent.com/116106229/207649230-0ff2ff50-c8d8-486e-9502-56617321367a.png">
+<img width="829" alt="CleanShot 2022-12-14 at 16 19 47@2x" src="https://user-images.githubusercontent.com/116106229/207650520-beaa2761-0f1f-4c76-b9ac-e2777c8e2423.png">
+
 
 
 WDIDCombinedFinalStats Dataframe Info example:
