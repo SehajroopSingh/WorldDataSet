@@ -5,6 +5,10 @@ A dataset to do all kinds of analysis of world problems
 ## Different Files:
 
 
+WDIDCombinedgroupcountryandyear Dataframe Info example:
+<img width="835" alt="CleanShot 2022-12-14 at 16 14 36@2x" src="https://user-images.githubusercontent.com/116106229/207649230-0ff2ff50-c8d8-486e-9502-56617321367a.png">
+
+
 
 
 
