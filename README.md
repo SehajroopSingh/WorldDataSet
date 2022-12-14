@@ -16,7 +16,10 @@
 
 ## Different Files Summaries:
 
-#### GDIM.csv
+### Our Recent Dataset:
+####GDIM.csv
+Column Names:
+[('country', 'region', 'incgroup4', 'parent', 'child', 'MEANp', 'MEANc', 'SDp', 'SDc', 'CAT', 'DIF', 'CAT_ISCED0', 'CAT_ISCED1', 'CAT_ISCED2', 'CAT_ISCED34', 'GEI %', 'Gender Economic Participation and Opportunity Equality %', 'Gender Education Attainment Equality %', 'Gender Health and Survival Equality %', 'Gender Political Empowerment', 'sub-region', 'Political Instability Estimate', 'IQ', 'Average Income (USD)', 'Education expenditure\nper inhabitant (USD)', 'Daily maximum\ntemperature Celsius'])
 
 CSV screenshot:
 
