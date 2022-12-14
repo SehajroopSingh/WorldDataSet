@@ -148,6 +148,22 @@ Another surprising find is that there seems to be an increase in likelihood of h
 
 ## Past 20 year Dataset
 
+WDID data set:
+
+![__results___3_0](https://user-images.githubusercontent.com/116106229/207693620-5257f1da-3705-465a-972e-6170ce33cd05.png)
+Visulaization reated to ascertain the emissions levels of each of the top 10 countries, in terms of GDP.
+
+
+![__results___7_0](https://user-images.githubusercontent.com/116106229/207694326-d017eec9-898f-45d7-a0fb-60328c3245d8.png)
+72.560976% of Countries have increased CO2 emissions (metric ton per capita) (1970-2016)	
+58.536585% of Countries that have increased CO2 emissions (metric ton per capita) (2006-2016)
+
+
+
+
+![__results___10_0](https://user-images.githubusercontent.com/116106229/207694518-f6f05a90-d7d2-4b1b-9244-c643b310f7cc.png)
+Decreasing emmitions trends amongst some of the top poluting countries
+
 
 ### Refugees
 Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, and people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of asylum is the country where an asylum claim was filed and granted. The aggregates refer to World Bank classifications of economies and therefore may differ from those reported by the OECD.
