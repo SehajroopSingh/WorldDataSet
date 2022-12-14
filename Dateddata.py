@@ -108,7 +108,7 @@ WDIDreset
 # %%
 y=WDIDreset.isnull().sum()/len(WDIDreset)
 y
-missing_features =y[y > 0.20].index
+missing_features =y[y > 0.18].index
 WDIDdropped=WDIDreset.drop(missing_features, axis=1)
 # %%
 WDIDdropped.head()
@@ -138,6 +138,52 @@ WDIDCombined
 # %%
 WDIDCombined.to_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombined.csv', index=False)
 # %%
-y=WDIDCombined.isnull().sum()/len(WDIDreset)
+y=WDIDCombined.isnull().sum()/len(WDIDCombined)
 y
+# %%
+WDIDCombined
+# %%
+WDIDCombinedfinal = WDIDCombined[WDIDCombined['Code'].notna()]
+# %%
+WDIDCombinedfinal.to_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombinedFinal.csv', index=False)
+# %%
+y=WDIDCombinedfinal.isnull().sum()/len(WDIDCombinedfinal)
+y
+missing_features =y[y > 0.30].index
+WDIDCombinedfinal=WDIDCombinedfinal.drop(missing_features, axis=1)
+# %%
+WDIDCombinedfinal.to_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombinedFinal.csv', index=False)
+
+# %%
+WDIDCombinedfinal=pd.read_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombinedFinal.csv')
+# %%
+stats = WDIDCombinedfinal.describe(include='all')
+stats 
+
+# %%
+stats_transposed = stats.T # or df1.transpose()
+stats_transposed=stats_transposed[['mean','std','min','25%','50%','75%','max']]
+stats_transposed
+
+# %%
+stats_transposed.to_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombinedFinalStats.csv')
+# %%
+print(stats_transposed.to_markdown())
+
+# %%
+WDIDCombinedgroupcountryandyear=pd.read_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombinedgroupcountryandyear.csv')
+WDIDCombinedgroupcountryandyear=WDIDCombinedfinal.groupby(["Country", "Year"]).mean()
+
+WDIDCombinedgroupcountryandyear
+# %%
+WDIDCombinedgroupcountryandyear=WDIDCombinedfinal.groupby(["Country", "Year"]).mean()
+# %%
+
+sliced_df = WDIDCombinedgroupcountryandyear.head(5)
+sliced_dfs = sliced_df.append(WDIDCombinedgroupcountryandyear.tail(5))
+sliced_dfs
+# %%
+print(sliced_dfs.to_markdown(tablefmt="grid"))
+# %%
+WDIDCombinedgroupcountryandyear.to_csv('/Users/sehaj/Documents/GitHub/DS-project/Dated Data/WDIDCombinedgroupcountryandyear.csv'))
 # %%
