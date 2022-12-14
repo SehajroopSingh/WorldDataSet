@@ -1,6 +1,15 @@
 # WorldDataSet:     
 ## Data Set of Big world indicators for each country : A dataset to do analysis of world problems
 
+## Two Curated Datasets: 100 + hours of curation
+
+### Recent Data = GDIM.csv
+
+### 20 Year Data = WDIDCombinedfinal.csv
+
+
+
+
 # TABLE OF CONTENTS
 
 #### 1) Files Summaries
