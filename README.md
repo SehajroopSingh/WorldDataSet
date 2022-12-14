@@ -229,15 +229,23 @@ https://www.migrationdataportal.org/themes/environmental_migration_and_statistic
 
 
 ### Global Health Data 
+The Global Health Estimates are primarily calculated using cause-of-death statistics that are reported to the WHO by individual countries. WE used their what we believe is an important indicator of health within the country. Child mortality under the age of 5.
 https://ourworldindata.org/explorers/global-health?facet=none&country=OWID_WRL~CHN~ZAF~BRA~USA~GBR~IND~RWA&Health+Area=Child+health&Indicator=Child+mortality&Metric=Rate&Source=WHO+%28GHO%29
-Our World
-in Data
+
+Dataset Structure:
+<img width="781" alt="CleanShot 2022-12-14 at 19 46 14@2x" src="https://user-images.githubusercontent.com/116106229/207699489-ee79cf3f-a340-4ffc-b900-585b2a9ccdf3.png">
 
 
 ### IOM’s Displacement Tracking Matrix 
 (DTM) is a system used to track and monitor disaster displacement and population mobility. Data, which can be disaggregated by gender and sex, are regularly captured, processed and disseminated to provide a better understanding of the movements and evolving needs of displaced populations and migrants, whether in situ or en route, before, during and in the aftermath of disasters. The data are presented in the DTM Data Portal. A study on how current DTM practices collect data on human mobility in the context of environmental degradation, climate change and disasters and draws also provides recommendations on how to improve current tools and practices. Recommendations include improving the focus of some DTM questions and increasing the amount of options available for respondents to provide more granular data on the migration, environment and climate nexus (IOM, 2020). 
 https://displacement.iom.int
 
+Conflict Internal Displacement Structure:
+<img width="629" alt="CleanShot 2022-12-14 at 19 54 08@2x" src="https://user-images.githubusercontent.com/116106229/207700853-f7c5fa45-2a73-402b-a215-ab3e9a420330.png">
+
+
+Disaster Internal Displacement Dataset Structure:
+<img width="780" alt="CleanShot 2022-12-14 at 19 53 37@2x" src="https://user-images.githubusercontent.com/116106229/207700764-99c9abb9-8b8c-42ce-aabb-e64c791854e2.png">
 
 
 ### 
