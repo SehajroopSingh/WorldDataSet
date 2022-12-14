@@ -1,6 +1,18 @@
-# WorldDataSet
-## Data Set of Big world indicators for each country
-A dataset to do all kinds of analysis of world problems
+# WorldDataSet:     
+## Data Set of Big world indicators for each country : A dataset to do analysis of world problems
+
+# TABLE OF CONTENTS
+
+#### 1) Files Summaries
+
+#### 2) How Datasets were Curated
+
+#### 3) Datasets Used to Compile our Datasets
+
+
+
+
+
 
 ## Different Files Summaries:
 
@@ -35,17 +47,14 @@ CSV screenshot:
 
 
 
-## How Main Dataset was Curated:
+# How Our Datasets was Curated:
 
 
 
 
+## Past 20 year Dataset
 
 
-
-
-
-# Datasets Used to Compile Main DataSet
 
 ### GDIM DataSet:
 The infomation in the GDIM comes from a variety of surveys offered within each country between 2008 and 2016. This database includes educational mobility estimates from 153 economies and accounts for 97 percent of the world’s population. Except for the Middle East and North Africa, the population coverage in all regions exceeds 90 percent, whilst in the middle east and North africa 83 percent of the population is covered.
@@ -93,7 +102,7 @@ https://displacement.iom.int
 
 
 
-###
+### 
 The CLIMIG database of studies on environmental migration, both of qualitative and quantitative nature, was developed by the University of Neuchatel (Switzerland).
 https://www.unine.ch/geographie/home/recherche/migration_climate_change_1/bibliographic-database.html
 
@@ -112,3 +121,43 @@ Data from World Development Indicators and Climate Change Knowledge Portal on cl
 
 ### Natural Disaster DataSet:
 https://ourworldindata.org/natural-disasters
+
+
+
+
+
+
+
+
+
+#  Recent Dataset
+
+The data for sourced from The Global Database on Intergenerational Mobility (GDIM), EqualityData, and Politicalstability datasets.
+
+The infomation in the GDIM comes from a variety of surveys offered within each country between 2008 and 2016. This database includes educational mobility estimates from 153 economies and accounts for 97 percent of the world’s population. Except for the Middle East and North Africa, the population coverage in all regions exceeds 90 percent, whilst in the middle east and North africa 83 percent of the population is covered.
+https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational-mobility
+
+The Gender Equality data set provides a few key variables, namely the Gender equality Index GEI, which is an aggregate of a few of the subsets of its variables. The World Economic Forum compiles and releases the Global Gender Gap Index every year. This report measures the extent of gender-based gaps among four key dimensions: Economic Participation and Opportunity, Educational Attainment, Health and Survival, and Political Empowerment, then gives each country a ranking between 0.000 (or 0%, the lowest possible gender equality) and 1.000 (100%, the highest possible gender equality). The analyses of each country are intended to serve as a basis for designing effective measures for reducing gender gaps. The 2021 edition of the Global Gender Gap Index studied and ranked 156 countries and territories around the world.
+https://worldpopulationreview.com/country-rankings/gender-equality-by-country
+
+The IQ by country dataset contains information about the average IQ of a country along with average income in US dollars and education expenditure per individual. The displayed IQ was averaged out of the results of 9 international studies and compared to the average income and government expenditures on education for the years 1990 to 2010.
+https://www.worlddata.info/iq-by-country.php
+
+The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. These data are gathered from a number of survey institutes, think tanks, non-governmental organizations, international organizations, and private sector firms. The WGI does not reflect the official views of the World Bank, its Executive Directors, or the countries they represent. The WGI is not used by the World Bank Group to allocate resources.” The regional code dataset was used to provide a variable with more specific sub-region locations for each country in order to better facilitate our understanding of how different parts of the world are affected by the other variables.
+http://info.worldbank.org/governance/wgi/
+
+The regional code dataset was used to provide a variable with more specific sub-region locations for each country in order to better facilitate our understanding of how different parts of the world are affected by the other variables.
+ttps://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
