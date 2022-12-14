@@ -18,7 +18,13 @@
 
 ### Our Recent Dataset:
 ####GDIM.csv
+
+In our data preprocessing stage,the initial dataset did not include details on on Gender equality, government instability, IQ, income, and temperature. Since, this additional data information would help with our analysis, we added the additional information by merging EqualityData and Politicalstability dataset with our GDIM dataset grouping by and country and sub-region. The variables included in the final dataset are displayed in Table 1 while the first few rows of the final dataset are shown in Table 2.
+
+
 Column Names:
+
+
 [('country', 'region', 'incgroup4', 'parent', 'child', 'MEANp', 'MEANc', 'SDp', 'SDc', 'CAT', 'DIF', 'CAT_ISCED0', 'CAT_ISCED1', 'CAT_ISCED2', 'CAT_ISCED34', 'GEI %', 'Gender Economic Participation and Opportunity Equality %', 'Gender Education Attainment Equality %', 'Gender Health and Survival Equality %', 'Gender Political Empowerment', 'sub-region', 'Political Instability Estimate', 'IQ', 'Average Income (USD)', 'Education expenditure\nper inhabitant (USD)', 'Daily maximum\ntemperature Celsius'])
 
 CSV screenshot:
@@ -158,6 +164,10 @@ http://info.worldbank.org/governance/wgi/
 
 The regional code dataset was used to provide a variable with more specific sub-region locations for each country in order to better facilitate our understanding of how different parts of the world are affected by the other variables.
 ttps://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv
+
+
+
+
 
 
 
