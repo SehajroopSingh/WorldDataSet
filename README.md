@@ -3,7 +3,7 @@
 
 ## Two Curated Datasets: 100 + hours of curation
 
-### Recent Data = GDIM.csv
+### Recent Data = RecentData.csv
 
 ### 20 Year Data = WDIDCombinedfinal.csv
 
@@ -26,7 +26,7 @@
 ## Different Files Summaries:
 
 ### Our Recent Dataset:
-#### GDIM.csv
+#### RecentData.csv
 
 In our data preprocessing stage,the initial dataset did not include details on on Gender equality, government instability, IQ, income, and temperature. Since, this additional data information would help with our analysis, we added the additional information by merging EqualityData and Politicalstability dataset with our GDIM dataset grouping by and country and sub-region. The variables included in the final dataset are displayed in Table 1 while the first few rows of the final dataset are shown in Table 2.
 
