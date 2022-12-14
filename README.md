@@ -24,8 +24,35 @@ In our data preprocessing stage,the initial dataset did not include details on o
 
 Column Names:
 
-
-[('country', 'region', 'incgroup4', 'parent', 'child', 'MEANp', 'MEANc', 'SDp', 'SDc', 'CAT', 'DIF', 'CAT_ISCED0', 'CAT_ISCED1', 'CAT_ISCED2', 'CAT_ISCED34', 'GEI %', 'Gender Economic Participation and Opportunity Equality %', 'Gender Education Attainment Equality %', 'Gender Health and Survival Equality %', 'Gender Political Empowerment', 'sub-region', 'Political Instability Estimate', 'IQ', 'Average Income (USD)', 'Education expenditure\nper inhabitant (USD)', 'Daily maximum\ntemperature Celsius'])
+Name | Variable description | Type | Units of measurement
+---|---|---|---
+country| Name of country| categorical|none
+region_noHICgroup |Region (with high-income economies among the regions)|categorical|none
+sub-region| | |none
+incgroup4 |Income groups (4 categories) as of July 1, 2020|categorical|none
+year |Survey year|categorical| none 
+parent| Mothers/Fathers/Max/Average|categorical|none
+child |Sons/Daughters/All|categorical|none
+MEANp| Mean of parents' years of schooling||none
+MEANc| Mean of children's years of schooling||none
+SDp| Standard deviation of parents' years of education||none
+SDc |Standard deviation of children’s years of education||none
+CAT| is the share of respondents that have attained a higher educational category than their parents, conditional on the parents not having obtained tertiary education, such that all included individuals have a chance of surpassing their parents. For this measure, we categorize individuals and parents according to their highest educational attainment in the following categories (see Section 4 for more details): (i) less than primary, (ii) primary, (iii) lower-secondary, (iv) upper-secondary, or (v) tertiary. | numeric|range 0-1
+CAT_ISCED0| Absolute mobility when parents have ISCED0 pr(c>p,p=ISCED0)| numeric|range 0-1
+CAT_ISCED1| Absolute mobility when parents have ISCED0,pr(c>p, p=ISCED1)| numeric|range 0-1
+CAT_ISCED2 |Absolute mobility when parents have ISCED0, pr(c>p, p=ISCED2)| numeric|range 0-1
+CAT_ISCED34| Absolute mobility when parents have ISCED0, pr(c>p, p=ISCED3-4)| numeric|range 0-1
+GEI % | | numeric | 
+Gender Economic Participation and Opportunity Equality % |  |numeric| 
+Gender Health and Survival Equality %| |numeric  |
+Gender Education Attainment Equality %| |numeric | 
+Gender Health and Survival Equality % | |numeric |
+Gender Political Empowerment | |numeric |
+Political Instability Estimate | | numeric|
+IQ |  | numeric |
+Average Income (USD) | | numeric| Dollar
+Education expenditure\nper inhabitant (USD)	 |  | numeric| Dollar
+Daily maximum\ntemperature Celsius|  | | Celcius - C
 
 CSV screenshot:
 
