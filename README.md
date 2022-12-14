@@ -249,37 +249,24 @@ Dataset Structure:
 (DTM) is a system used to track and monitor disaster displacement and population mobility. Data, which can be disaggregated by gender and sex, are regularly captured, processed and disseminated to provide a better understanding of the movements and evolving needs of displaced populations and migrants, whether in situ or en route, before, during and in the aftermath of disasters. The data are presented in the DTM Data Portal. A study on how current DTM practices collect data on human mobility in the context of environmental degradation, climate change and disasters and draws also provides recommendations on how to improve current tools and practices. Recommendations include improving the focus of some DTM questions and increasing the amount of options available for respondents to provide more granular data on the migration, environment and climate nexus (IOM, 2020). 
 https://displacement.iom.int
 
+#### IDMC_GIDD_conflict_internal_displacement_data_2021-1670350321633:
+Internal displacements and total number of IDPs from 2008 to 2021
+https://www.internal-displacement.org/database/displacement-data
+
 Conflict Internal Displacement Structure:
 <img width="629" alt="CleanShot 2022-12-14 at 19 54 08@2x" src="https://user-images.githubusercontent.com/116106229/207700853-f7c5fa45-2a73-402b-a215-ab3e9a420330.png">
 
 
-Disaster Internal Displacement Dataset Structure:
-<img width="780" alt="CleanShot 2022-12-14 at 19 53 37@2x" src="https://user-images.githubusercontent.com/116106229/207700764-99c9abb9-8b8c-42ce-aabb-e64c791854e2.png">
 
-
-### 
-The CLIMIG database of studies on environmental migration, both of qualitative and quantitative nature, was developed by the University of Neuchatel (Switzerland).
-https://www.unine.ch/geographie/home/recherche/migration_climate_change_1/bibliographic-database.html
-
-
-### IDMC_GIDD_disasters_internal_displacement_data_2021-1670350238241:
+#### IDMC_GIDD_disasters_internal_displacement_data_2021-1670350238241:
 Internal Displacements from 2008 to 2021
 https://www.internal-displacement.org/database/displacement-data
 
-### IDMC_GIDD_conflict_internal_displacement_data_2021-1670350321633:
-Internal displacements and total number of IDPs from 2008 to 2021
-https://www.internal-displacement.org/database/displacement-data
-
-### Climate change Data
-Data from World Development Indicators and Climate Change Knowledge Portal on climate systems, exposure to climate impacts, resilience, greenhouse gas emissions, and energy use.
-
+Disaster Internal Displacement Dataset Structure:
+<img width="780" alt="CleanShot 2022-12-14 at 19 53 37@2x" src="https://user-images.githubusercontent.com/116106229/207700764-99c9abb9-8b8c-42ce-aabb-e64c791854e2.png">
 
 ### Natural Disaster DataSet:
 https://ourworldindata.org/natural-disasters
-
-
-
-
 
 
 
