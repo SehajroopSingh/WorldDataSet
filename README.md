@@ -163,10 +163,9 @@ Visulaization reated to ascertain the emissions levels of each of the top 10 cou
 58.536585% of Countries that have increased CO2 emissions (metric ton per capita) (2006-2016)
 
 
+<img width="506" alt="CleanShot 2022-12-14 at 19 30 05@2x" src="https://user-images.githubusercontent.com/116106229/207696613-ce505282-3e7b-4d7f-92d3-76823845ef7c.png">
 
-
-![__results___10_0](https://user-images.githubusercontent.com/116106229/207694518-f6f05a90-d7d2-4b1b-9244-c643b310f7cc.png)
-Decreasing emmitions trends amongst some of the top poluting countries
+Decreasing emmitions trends amongst some of the top poluting countries which is great news. Lets slowly get everyone onboard!
 
 
 ### Refugees
