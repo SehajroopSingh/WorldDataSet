@@ -2,7 +2,7 @@
 ## Data Set of Big world indicators for each country
 A dataset to do all kinds of analysis of world problems
 
-## Different Files:
+## Different Files Summaries:
 
 
 WDIDCombinedgroupcountryandyear Dataframe Info example:
@@ -15,7 +15,7 @@ WDIDCombinedFinalStats Dataframe Info example:
 
 
 
-
+# Datasets Used to Compile Main DataSet
 
 ### GDIM DataSet:
 The infomation in the GDIM comes from a variety of surveys offered within each country between 2008 and 2016. This database includes educational mobility estimates from 153 economies and accounts for 97 percent of the world’s population. Except for the Middle East and North Africa, the population coverage in all regions exceeds 90 percent, whilst in the middle east and North africa 83 percent of the population is covered.
