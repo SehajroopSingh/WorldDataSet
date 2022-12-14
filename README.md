@@ -5,7 +5,7 @@ A dataset to do all kinds of analysis of world problems
 ## Different Files Summaries:
 
 
-#### WDIDCombinedgroupcountryandyear 
+#### WDIDCombinedgroupcountryandyear.csv 
 
 This csv contains the datapoints grouped by country to make it easier to understand progress in all columns over the twenty year period that is represented by the main dataset.
 
@@ -17,7 +17,7 @@ CSV screenshot:
 
 
 
-#### WDIDCombinedFinalStats 
+#### WDIDCombinedFinalStats.csv
 
 This csv contains the summary statistics for each column in the main dataset
 
