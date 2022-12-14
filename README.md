@@ -5,12 +5,20 @@ A dataset to do all kinds of analysis of world problems
 ## Different Files Summaries:
 
 
-WDIDCombinedgroupcountryandyear Dataframe Info example:
+#### WDIDCombinedgroupcountryandyear 
+
+This csv contains the datapoints grouped by country to make it easier to understand progress in all columns over the twenty year period that is represented by the main dataset.
+
+Dataframe Info example:
 <img width="829" alt="CleanShot 2022-12-14 at 16 19 47@2x" src="https://user-images.githubusercontent.com/116106229/207650520-beaa2761-0f1f-4c76-b9ac-e2777c8e2423.png">
 
 
 
-WDIDCombinedFinalStats Dataframe Info example:
+#### WDIDCombinedFinalStats 
+
+This csv contains the summary statistics for each column in the main dataset
+
+Dataframe Info example:
 <img width="842" alt="CleanShot 2022-12-14 at 16 19 07@2x" src="https://user-images.githubusercontent.com/116106229/207650305-36deddb4-5a74-4548-be75-eb34d19c339f.png">
 
 
