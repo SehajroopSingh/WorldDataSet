@@ -172,6 +172,10 @@ Decreasing emmitions trends amongst some of the top poluting countries which is 
 Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, and people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of asylum is the country where an asylum claim was filed and granted. The aggregates refer to World Bank classifications of economies and therefore may differ from those reported by the OECD.
 The Dataset was downloaded from World Bank website. It consists two Excel files, one for refugees of origin, and the other for refugees of asylum.
 
+Dataset Structure:
+<img width="823" alt="CleanShot 2022-12-14 at 19 37 52@2x" src="https://user-images.githubusercontent.com/116106229/207698002-bcb09dd5-ed99-468f-a469-86ba4c21e0e7.png">
+
+
 ### Regional Code dataset:
 The regional code dataset was used to provide a variable with more specific sub-region locations for each country in order to better facilitate our understanding of how different parts of the world are affected by the other variables.
 https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv
