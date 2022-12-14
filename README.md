@@ -148,7 +148,11 @@ Another surprising find is that there seems to be an increase in likelihood of h
 
 ## Past 20 year Dataset
 
-WDID data set:
+### WDID data set:
+
+The primary World Bank collection of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.This is a dataset that has originated from the World Bank. The organisation has an open data platform found here and they update their information according the amount of data that is brought in. 
+https://datacatalog.worldbank.org/dataset/world-development-indicators
+
 
 ![__results___3_0](https://user-images.githubusercontent.com/116106229/207693620-5257f1da-3705-465a-972e-6170ce33cd05.png)
 Visulaization reated to ascertain the emissions levels of each of the top 10 countries, in terms of GDP.
