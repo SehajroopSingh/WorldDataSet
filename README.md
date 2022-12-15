@@ -70,22 +70,6 @@ CSV screenshot:
 
 <img width="811" alt="CleanShot 2022-12-14 at 17 40 54@2x" src="https://user-images.githubusercontent.com/116106229/207668114-ce40bfa7-ae9a-4495-9726-8eea26a2eb8d.png">
 
-
-
-|    | country     | region     | incgroup4   | parent   | child    |   MEANp |   MEANc |     SDp |     SDc |      CAT |      DIF |   CAT_ISCED0 |   CAT_ISCED1 |   CAT_ISCED2 |   |  |    |   % |   |    |    |    |   |  ) |   |    |
-|    |             |            |             |          |          |         |         |         |         |      CAT_ISCED34     |     GEI %       |       Gender Economic Participation and Opportunity Equality %       |              |        Gender Education Attainment Equality %      |          Gender Health and Survival Equality %      |    Gender Political Empowerment     |                                       sub-region                      |                       Political                    |                                    Instability Estimate     |                        IQ         |          Average Income (USD)     |                 Education expenditure                  |      |  Daily maximum                       |    per inhabitant (USD) |   temperature Celsius |
-|---:|:------------|:-----------|:------------|:---------|:---------|--------:|--------:|--------:|--------:|---------:|---------:|-------------:|-------------:|-------------:|--------------:|--------:|-----------------------------------------------------------:|-----------------------------------------:|----------------------------------------:|-------------------------------:|:--------------|---------------------------------:|-----:|-----------------------:|------------------------:|----------------------:|
-|  0 | Afghanistan | South Asia | Low income  | avg      | all      | 2.48016 | 5.5824  | 3.80978 | 5.85776 | 0.414355 | 3.2033   |     0.329975 |     0.633108 |     0.584747 |      0.542553 |   0.444 |                                                       0.18 |                                    0.514 |                                   0.952 |                          0.132 | Southern Asia |                             -2.5 |   80 |                    340 |                      13 |                    24 |
-|  1 | Afghanistan | South Asia | Low income  | avg      | daughter | 2.98999 | 4.33173 | 4.01038 | 5.90269 | 0.283075 | 1.43339  |     0.174239 |     0.509354 |     0.445407 |      0.47483  |   0.444 |                                                       0.18 |                                    0.514 |                                   0.952 |                          0.132 | Southern Asia |                             -2.5 |   80 |                    340 |                      13 |                    24 |
-|  2 | Afghanistan | South Asia | Low income  | avg      | son      | 2.35398 | 5.89194 | 3.74849 | 5.80614 | 0.446874 | 3.64172  |     0.364921 |     0.664005 |     0.630444 |      0.563892 |   0.444 |                                                       0.18 |                                    0.514 |                                   0.952 |                          0.132 | Southern Asia |                             -2.5 |   80 |                    340 |                      13 |                    24 |
-|  3 | Afghanistan | South Asia | Low income  | dad      | all      | 3.75605 | 5.53828 | 5.49376 | 5.84203 | 0.350244 | 2.11022  |     0.342107 |     0.731783 |     0.366321 |      0.260787 |   0.444 |                                                       0.18 |                                    0.514 |                                   0.952 |                          0.132 | Southern Asia |                             -2.5 |   80 |                    340 |                      13 |                    24 |
-|  4 | Afghanistan | South Asia | Low income  | dad      | daughter | 4.52088 | 4.27777 | 5.80478 | 5.86974 | 0.230126 | 0.128818 |     0.189864 |     0.81914  |     0.233389 |      0.202416 |   0.444 |                                                       0.18 |                                    0.514 |                                   0.952 |                          0.132 | Southern Asia |                             -2.5 |   80 |                    340 |                      13 |   
-
-
-Table: a parameter estimate table of the fitted linear regression model. the coefficient estimates and coefficient standard errors for the intercept and each variable are shown in the two columns, with rows indexed by parameter name. The estimate for the error variance parameter is in the last row.
-![image](https://user-images.githubusercontent.com/116106229/207688153-6bf04080-0fa2-44f8-a84c-81dfea1bdbb3.png)
-The regression shows that a 1 unit increase in parental education results in a 0.671677 increase in child education. The standard error is .03 which leads us to conclude that it is a decent estimate as zero is not within a SDE. The estimates for all variables except the expenditure variable are all not within SDE of zero thus viable estimates, suggesting that the expenditure variable may not be significant. The GEI estimate is 10.179138 but since each increase in GEI is .01 up to 1 max, it has less of an impact then an initial brief observation of the model suggests. IQ and political instability seem to also have big impacts with each unit increase. An R^2 value of 0.8264603491332505 suggests a high amount of variance in the education can be explained by these variables.
-
 ## 20 Years Data:
 
 #### WDIDCombinedFinal.csv
@@ -139,6 +123,15 @@ These datasets are curated for use in analysis and possibly machine learning pre
 
 
 ### Recent Data:
+
+
+
+
+
+
+Table: a parameter estimate table of the fitted linear regression model. the coefficient estimates and coefficient standard errors for the intercept and each variable are shown in the two columns, with rows indexed by parameter name. The estimate for the error variance parameter is in the last row.
+![image](https://user-images.githubusercontent.com/116106229/207688153-6bf04080-0fa2-44f8-a84c-81dfea1bdbb3.png)
+The regression shows that a 1 unit increase in parental education results in a 0.671677 increase in child education. The standard error is .03 which leads us to conclude that it is a decent estimate as zero is not within a SDE. The estimates for all variables except the expenditure variable are all not within SDE of zero thus viable estimates, suggesting that the expenditure variable may not be significant. The GEI estimate is 10.179138 but since each increase in GEI is .01 up to 1 max, it has less of an impact then an initial brief observation of the model suggests. IQ and political instability seem to also have big impacts with each unit increase. An R^2 value of 0.8264603491332505 suggests a high amount of variance in the education can be explained by these variables.
 
 We analyzed the correlation between education numbers and a few social, political, and economical factors. The analysis focused on different factors that influence average education of a countries residents. The analysis showed the main coorelations between education levels and daily maximum temperature of your country, average income and education exepnditure per inhabitant, and also Gender Equality. These seemed to be some of the major contributers to the success of a countries education levels. Further, linear regression model quantified the relationship between these variables and the education attainment.
 
